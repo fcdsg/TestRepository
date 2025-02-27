@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../FR/include/robot.h
+robot_types.h
+../FR/include/robot_types.h
+iostream
+-
+list
+-
+vector
+-
+
+../FR/include/robot_types.h
+stdio.h
+-
+
+../head/test.h
+
+/home/fc/code/test250226/main.cpp
+iostream
+-
+robot.h
+/home/fc/code/test250226/robot.h
+test.h
+/home/fc/code/test250226/test.h
+

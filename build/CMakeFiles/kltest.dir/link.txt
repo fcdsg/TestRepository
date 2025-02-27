@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/kltest.dir/main.cpp.o CMakeFiles/kltest.dir/src/test.cpp.o  -o kltest  -Wl,-rpath,/home/fc/code/test250226/FR/x86 ../FR/x86/libfairino.so 

@@ -8,10 +8,10 @@
         "name": "(gdb) 启动",
         "type": "cppdbg",
         "request": "launch",
-        "program": "${fileDirname}/${fileBasenameNoExtension}",
+        "program": "${workspaceFolder}/build/kltest",
         "args": [],
         "stopAtEntry": false,
-        "cwd": "${fileDirname}",
+        "cwd": "${workspaceFolder}",
         "environment": [],
         "externalConsole": false,
         "MIMode": "gdb",
@@ -26,7 +26,8 @@
                 "text": "-gdb-set disassembly-flavor intel",
                 "ignoreFailures": true
             }
-        ]
+        ],
+        "preLaunchTask": "build"
     }
     ]
 }
